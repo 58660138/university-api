@@ -12,7 +12,7 @@ let students = [
 { id : 2,name:'Thannabodee',email:'win@outlook.com'}
 ]
 
-app.post('/students',(req,res) => {
+app.post('/students',(req,res) => {ื
   let student = req.body
   students.push(student)
   res.json(student)
